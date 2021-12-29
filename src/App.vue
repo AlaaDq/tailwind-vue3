@@ -3,8 +3,8 @@
   <!-- <div class="container mx-auto">
   </div> -->
 
-  <header class="border-4 border-teal-600">
-    <div class="flex justify-between items-center py-3 px-4">
+  <header class="border-4 border-teal-600 sm:flex sm:justify-between sm:py-3 sm:px-4">
+    <div class="flex justify-between items-center py-3 px-4 sm:p-0">
       <!-- logo -->
       <div class="w-28">
         <div class="aspect-w-4 w-full aspect-h-2">
@@ -72,7 +72,10 @@
         </button>
       </div>
     </div>
-    <div :class="toggleShowClass" class="px-2 pb-4 pt-2 space-y-1 sm:block">
+    <div
+      :class="toggleShowClass"
+      class="px-2 pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
+    >
       <a
         href="#"
         class="
