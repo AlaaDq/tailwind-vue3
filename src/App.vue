@@ -3,7 +3,7 @@
   <!-- <div class="container mx-auto">
   </div> -->
 
-  <header class="border-4 border-teal-600 sm:flex sm:justify-between sm:py-3 sm:px-4">
+  <header class="border-4 border-teal-600 sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-4">
     <div class="flex justify-between items-center py-3 px-4 sm:p-0">
       <!-- logo -->
       <div class="w-28">
