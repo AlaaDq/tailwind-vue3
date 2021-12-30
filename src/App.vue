@@ -1,217 +1,225 @@
 <template>
   <!-- layout -->
-  <!-- <div class="container mx-auto">
-  </div> -->
+  <div class="container mx-auto">
+    <header class="sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-4">
+      <div class="flex justify-between items-center py-3 px-4 sm:p-0">
+        <!-- logo -->
+        <div class="w-28">
+          <div class="aspect-w-4 w-full aspect-h-2">
+            <img
+              :src="'/assets/header/Group\ 18.jpg'"
+              alt="logo"
+              class="
+                w-full
+                h-full
+                object-center object-contain
+                lg:w-full lg:h-full
+              "
+            />
+          </div>
+        </div>
+        <!--  -->
 
-  <header class="sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-4">
-    <div class="flex justify-between items-center py-3 px-4 sm:p-0">
-      <!-- logo -->
-      <div class="w-28">
-        <div class="aspect-w-4 w-full aspect-h-2">
-          <img
-            :src="'/assets/header/Group\ 18.jpg'"
-            alt="logo"
+        <!-- menu btn -->
+        <div class="sm:hidden">
+          <button
+            data-collapse-toggle="mobile-menu"
+            @click="toggleCollapse"
+            type="button"
             class="
-              w-full
-              h-full
-              object-center object-contain
-              lg:w-full lg:h-full
+              inline-flex
+              items-center
+              p-2
+              ml-3
+              text-sm text-gray-500
+              rounded-lg
+              md:hidden
+              hover:bg-gray-100focus:outline-none
+              focus:ring-2 focus:ring-gray-200
             "
-          />
+            aria-controls="mobile-menu-2"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              :class="toggleHideClass"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg
+              :class="toggleShowClass"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
         </div>
       </div>
-      <!--  -->
-
-      <!-- menu btn -->
-      <div class="sm:hidden">
-        <button
-          data-collapse-toggle="mobile-menu"
-          @click="toggleCollapse"
-          type="button"
+      <div
+        :class="toggleShowClass"
+        class="px-2 pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
+      >
+        <a
+          href="#"
           class="
-            inline-flex
-            items-center
-            p-2
-            ml-3
-            text-sm text-gray-500
-            rounded-lg
-            md:hidden
-            hover:bg-gray-100focus:outline-none
-            focus:ring-2 focus:ring-gray-200
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
           "
-          aria-controls="mobile-menu-2"
-          aria-expanded="false"
         >
-          <span class="sr-only">Open main menu</span>
+          Home
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          About
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          Services
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          Categories
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          Pages
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          Blog
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            font-semibold
+            px-2
+          "
+        >
+          Contact
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400
+            font-semibold
+            px-2
+          "
+        >
           <svg
-            :class="toggleHideClass"
             class="w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             ></path>
           </svg>
+        </a>
+        <a
+          href="#"
+          class="
+            block
+            text-neutral-800
+            hover:rounded hover:text-yellow-400
+            font-semibold
+            px-2
+          "
+        >
           <svg
-            :class="toggleShowClass"
-            class="w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
+            class="w-6 h-6 fill-white stroke-slate-900 hover:stroke-yellow-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
             ></path>
           </svg>
-        </button>
+        </a>
+      </div>
+    </header>
+    <!-- intro -->
+    <div class="grid grid-cols-2">
+      <div>test</div>
+      <div class="max-h-96">
+        <div class="aspect-w-3 aspect-h-4">
+          <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
+        </div>
       </div>
     </div>
-    <div
-      :class="toggleShowClass"
-      class="px-2 pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
-    >
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Home
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        About
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Services
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Categories
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Pages
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Blog
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        Contact
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          ></path>
-        </svg>
-      </a>
-      <a
-        href="#"
-        class="
-          block
-          text-neutral-800
-          hover:rounded hover:text-yellow-400 hover:bg-cyan-200
-          font-semibold
-          px-2
-        "
-      >
-        <svg
-          class="w-6 h-6 fill-white stroke-slate-900 hover:stroke-yellow-400"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-          ></path>
-        </svg>
-      </a>
-    </div>
-  </header>
+  </div>
 </template>
 
 <script>
