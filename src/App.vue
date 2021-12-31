@@ -511,12 +511,12 @@
       <!--  -->
 
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+      <div class="grid md:grid-cols-3 gap-0 md:gap-10 mt-6">
         <div
           class="
             flex
             bg-primary
-            rounded-xl
+            md:rounded-xl
             flex-col
             items-center
             justify-center
@@ -548,7 +548,7 @@
           class="
             flex
             bg-white
-            rounded-xl
+            md:rounded-xl
             flex-col
             items-center
             justify-center
@@ -580,7 +580,7 @@
           class="
             flex
             bg-primary
-            rounded-xl
+            md:rounded-xl
             flex-col
             items-center
             justify-center
