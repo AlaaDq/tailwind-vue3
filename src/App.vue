@@ -20,10 +20,9 @@
         </div>
         <!--  -->
 
-        <!-- menu btn -->
+        <!-- hamburger btn -->
         <div class="sm:hidden">
           <button
-            data-collapse-toggle="mobile-menu"
             @click="toggleCollapse"
             type="button"
             class="
@@ -37,10 +36,7 @@
               hover:bg-gray-100focus:outline-none
               focus:ring-2 focus:ring-gray-200
             "
-            aria-controls="mobile-menu-2"
-            aria-expanded="false"
           >
-            <span class="sr-only">Open main menu</span>
             <svg
               :class="toggleHideClass"
               class="w-6 h-6"
@@ -69,7 +65,9 @@
             </svg>
           </button>
         </div>
+        <!--  -->
       </div>
+      <!-- nav links -->
       <div
         :class="toggleShowClass"
         class="pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
@@ -242,9 +240,12 @@
           </div>
         </a>
       </div>
+      <!--  -->
     </header>
+
     <!-- intro -->
     <div class="grid grid-cols-2">
+      <!-- left col -->
       <div class="flex flex-col justify-center px-4 md:px-0">
         <div class="text-4xl md:text-6xl font-semibold md:leading-tight">
           Free Home <span class="text-primary">Delivery Within</span> An Hour
@@ -323,10 +324,18 @@
           </div>
         </div>
       </div>
+      <!--  -->
+      <!-- right col -->
       <div class="aspect-w-1 aspect-h-1">
         <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
       </div>
+      <!--  -->
     </div>
+    <!--  -->
+
+      
+
+
   </div>
 </template>
 
