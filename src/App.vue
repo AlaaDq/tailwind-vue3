@@ -762,7 +762,7 @@
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
         <div class="text-2xl text-black md:text-white font-semibold">
-          Featured Categories
+          Our Chefs
         </div>
         <p class="text-base text-black md:text-white mt-3 md:w-1/2 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
@@ -782,7 +782,7 @@
             <img
               class="object-cover lg:rounded-lg"
               src="/assets/4/1.jpg"
-              alt="chief"
+              alt="Chef"
             />
           </div>
           <!--  -->
@@ -808,7 +808,7 @@
                 lg:rounded-lg
               "
             >
-              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chef</div>
             </div>
           </div>
           <!--  -->
@@ -849,7 +849,7 @@
                 lg:rounded-lg
               "
             >
-              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chef</div>
             </div>
           </div>
           <!--  -->
@@ -886,7 +886,7 @@
                 md:rounded-lg
               "
             >
-              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chef</div>
             </div>
           </div>
         </div>
@@ -920,7 +920,7 @@
                 lg:rounded-lg
               "
             >
-              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chef</div>
             </div>
           </div>
         </div>
@@ -1056,7 +1056,7 @@
           lg:items-center
         "
       >
-        <div class="font-semibold text-lg w-24  lg:w-auto">Find Us</div>
+        <div class="font-semibold text-lg w-24 lg:w-auto">Find Us</div>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
