@@ -930,16 +930,16 @@
   </section>
 
   <footer class="container mx-auto md:px-16 py-12">
-    <div class="grid lg:grid-cols-5">
+    <div class="grid gap-8 lg:gap-0 lg:grid-cols-5">
       <div
         class="
           flex flex-nowrap
           lg:flex-col
-          justify-center
+          justify-start
           items-start
           px-4
           space-x-6
-          lg:px-0 lg:space-x-0 lg:space-y-16
+          lg:px-0 lg:space-x-0 lg:space-y-8
         "
       >
         <div class="w-20">
@@ -993,29 +993,130 @@
           </button>
         </div>
       </div>
-      <div class="flex lg:flex-col justify-center items-center space-y-3">
-        <div class="font-semibold text-lg">title</div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div
+        class="
+          flex flex-nowrap
+          px-4
+          space-x-6
+          lg:px-0 lg:space-x-0 lg:space-y-8 lg:flex-col
+          justify-start
+          items-start
+          lg:items-center
+        "
+      >
+        <div class="font-semibold text-lg w-24 lg:w-auto">Services</div>
+        <div class="text-base">About</div>
+        <div class="text-base">Support</div>
+        <div class="text-base">Chats</div>
+        <div class="text-base">Blogs</div>
+        <div class="text-base">Privacy & Policy</div>
       </div>
-      <div class="flex lg:flex-col justify-center items-center space-y-3">
-        <div class="font-semibold text-lg">title</div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div
+        class="
+          flex flex-nowrap
+          px-4
+          space-x-6
+          lg:px-0 lg:space-x-0 lg:space-y-8 lg:flex-col
+          justify-start
+          items-start
+          lg:items-center
+          whitespace-nowrap
+        "
+      >
+        <div class="font-semibold text-lg w-24 lg:w-auto">Quick links</div>
+        <div class="text-base">Collections</div>
+        <div class="text-base">Services</div>
+        <div class="text-base">Online Order</div>
+        <div class="text-base">Contacts</div>
       </div>
-      <div class="flex lg:flex-col justify-center items-center space-y-3">
-        <div class="font-semibold text-lg">title</div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div
+        class="
+          flex flex-nowrap
+          px-4
+          space-x-6
+          lg:px-0 lg:space-x-0 lg:space-y-8 lg:flex-col
+          justify-start
+          items-start
+          lg:items-center
+        "
+      >
+        <div class="font-semibold text-lg w-24 lg:w-auto">Contact Us</div>
+        <div class="text-base">+5977 5777 1427</div>
+        <div class="text-base">alaa.97@gmial.com</div>
+        <div class="text-base">Damascus Syria</div>
       </div>
-      <div class="flex lg:flex-col justify-center items-center space-y-3">
-        <div class="font-semibold text-lg">title</div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div
+        class="
+          flex flex-nowrap
+          px-4
+          space-x-6
+          lg:px-0 lg:space-x-0 lg:space-y-8 lg:flex-col
+          justify-start
+          items-start
+          lg:items-center
+        "
+      >
+        <div class="font-semibold text-lg w-24  lg:w-auto">Find Us</div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: #000000"
+          >
+            <path
+              d="M 21.800781 0 L 2.199219 0 C 1 0 0 1 0 2.199219 L 0 21.800781 C 0 23 1 24 2.199219 24 L 12 24 L 12 14 L 9 14 L 9 11 L 12 11 L 12 8 C 12 5.5 13 4 16 4 L 19 4 L 19 7 L 17.699219 7 C 16.800781 7 16 7.800781 16 8.699219 L 16 11 L 20 11 L 19.5 14 L 16 14 L 16 24 L 21.800781 24 C 23 24 24 23 24 21.800781 L 24 2.199219 C 24 1 23 0 21.800781 0 Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: #000000"
+          >
+            <path
+              d="M 21.800781 0 L 2.199219 0 C 1 0 0 1 0 2.199219 L 0 21.800781 C 0 23 1 24 2.199219 24 L 21.800781 24 C 23 24 24 23 24 21.800781 L 24 2.199219 C 24 1 23 0 21.800781 0 Z M 7 20 L 3 20 L 3 9 L 7 9 Z M 5 7.699219 C 3.800781 7.699219 3 6.898438 3 5.898438 C 3 4.800781 3.800781 4 5 4 C 6.199219 4 7 4.800781 7 5.800781 C 7 6.898438 6.199219 7.699219 5 7.699219 Z M 21 20 L 17 20 L 17 14 C 17 12.398438 15.898438 12 15.601563 12 C 15.300781 12 14 12.199219 14 14 C 14 14.199219 14 20 14 20 L 10 20 L 10 9 L 14 9 L 14 10.601563 C 14.601563 9.699219 15.601563 9 17.5 9 C 19.398438 9 21 10.5 21 14 Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: #000000"
+          >
+            <path
+              d="M 2.1875 0 C 0.988281 0 0 0.988281 0 2.1875 L 0 21.8125 C 0 23.011719 0.988281 24 2.1875 24 L 21.8125 24 C 23.011719 24 24 23.011719 24 21.8125 L 24 2.1875 C 24 0.988281 23.011719 0 21.8125 0 Z M 9.1875 3.90625 L 13.59375 3.90625 L 12.1875 4.59375 L 11 4.59375 C 11.5 5.09375 12.5 5.898438 12.5 7.5 C 12.5 9.101563 11.585938 9.800781 10.6875 10.5 C 10.386719 10.800781 10.09375 11.101563 10.09375 11.5 C 10.09375 12 10.386719 12.207031 10.6875 12.40625 L 11.5 13 C 12.398438 13.800781 13.3125 14.5 13.3125 16 C 13.3125 18 11.289063 20 7.6875 20 C 4.585938 20 3.09375 18.5 3.09375 17 C 3.09375 16.199219 3.511719 15.207031 4.8125 14.40625 C 6.113281 13.605469 7.90625 13.507813 8.90625 13.40625 C 8.605469 13.007813 8.3125 12.601563 8.3125 12 C 8.3125 11.601563 8.398438 11.386719 8.5 11.1875 L 7.8125 11.1875 C 5.3125 11.289063 4 9.605469 4 7.90625 C 4 6.90625 4.507813 5.792969 5.40625 5.09375 C 6.605469 4.09375 8.085938 3.90625 9.1875 3.90625 Z M 7.90625 4.59375 C 7.304688 4.59375 6.707031 4.914063 6.40625 5.3125 C 6.007813 5.8125 5.90625 6.40625 5.90625 6.90625 C 5.90625 8.304688 6.695313 10.6875 8.59375 10.6875 C 9.09375 10.6875 9.695313 10.394531 10.09375 10.09375 C 10.59375 9.59375 10.59375 8.894531 10.59375 8.59375 C 10.59375 6.992188 9.707031 4.59375 7.90625 4.59375 Z M 17 8 L 19 8 L 19 11 L 22 11 L 22 13 L 19 13 L 19 16 L 17 16 L 17 13 L 14 13 L 14 11 L 17 11 Z M 8.90625 14.09375 C 8.707031 14.09375 7.492188 14.105469 6.59375 14.40625 C 6.09375 14.605469 4.8125 15.09375 4.8125 16.59375 C 4.8125 18.09375 6.292969 19.1875 8.59375 19.1875 C 10.695313 19.1875 11.8125 18.207031 11.8125 16.90625 C 11.8125 15.804688 11.101563 15.195313 9.5 14.09375 Z"
+            ></path>
+          </svg>
+        </div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            style="fill: #000000"
+          >
+            <path
+              d="M 24 4.300781 C 23.101563 4.699219 22.199219 5 21.199219 5.101563 C 22.199219 4.5 23 3.5 23.398438 2.398438 C 22.398438 3 21.398438 3.398438 20.300781 3.601563 C 19.300781 2.601563 18 2 16.601563 2 C 13.898438 2 11.699219 4.199219 11.699219 6.898438 C 11.699219 7.300781 11.699219 7.699219 11.800781 8 C 7.699219 7.800781 4.101563 5.898438 1.699219 2.898438 C 1.199219 3.601563 1 4.5 1 5.398438 C 1 7.101563 1.898438 8.601563 3.199219 9.5 C 2.398438 9.398438 1.601563 9.199219 1 8.898438 C 1 8.898438 1 8.898438 1 9 C 1 11.398438 2.699219 13.398438 4.898438 13.800781 C 4.5 13.898438 4.101563 14 3.601563 14 C 3.300781 14 3 14 2.699219 13.898438 C 3.300781 15.898438 5.101563 17.300781 7.300781 17.300781 C 5.601563 18.601563 3.5 19.398438 1.199219 19.398438 C 0.800781 19.398438 0.398438 19.398438 0 19.300781 C 2.199219 20.699219 4.800781 21.5 7.5 21.5 C 16.601563 21.5 21.5 14 21.5 7.5 C 21.5 7.300781 21.5 7.101563 21.5 6.898438 C 22.5 6.199219 23.300781 5.300781 24 4.300781"
+            ></path>
+          </svg>
+        </div>
       </div>
     </div>
   </footer>
