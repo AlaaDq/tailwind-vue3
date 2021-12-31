@@ -618,6 +618,96 @@
     </div>
   </section>
   <!--  -->
+
+  <!-- about -->
+  <section class="md:h-screen bg-slate-900">
+    <div class="container mx-auto md:px-16 pt-12">
+      <!-- grid cards -->
+      <div class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2">
+        <div
+          class="
+            row-start-2 row-end-3
+            md:row-start-auto
+            md:row-end-auto
+            md:col-start-1
+            md:col-end-2
+            md:relative
+          "
+        >
+          <div
+            class="w-96 mx-auto mt-6 md:mt-none md:mx-none md:absolute md:top-1/2 md:transform md:-translate-y-1/2"
+          >
+            <div class="aspect-w-4 aspect-h-3">
+              <img
+                src="/assets/4/brooke-lark-nTZOILVZuOg-unsplash.jpg"
+                class="w-full h-full rounded-4xl object-cover"
+                alt="food"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            md:col-start-2 md:col-end-3
+            flex flex-col
+            px-4
+            md:px-0
+            space-y-6
+          "
+        >
+          <div class="font-bold text-2xl text-white">
+            What People Say About Us
+          </div>
+          <p class="text-sm text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+            in quae ratione quas esse placeat minus perspiciatis molestias
+            facilis nisi dignissimos aspernatur cupiditate doloribus rem quaerat
+            aut doloremque enim laboriosam.
+          </p>
+          <div
+            class="
+              flex
+              justify-between
+              space-y-3
+              items-center
+              flex-col
+              md:flex-row
+            "
+          >
+            <div class="w-40">
+              <div class="aspect-w-3 aspect-h-2">
+                <img
+                  class="w-full h-full rounded-4xl object-cover"
+                  src="/assets/4/3.jpg"
+                  alt="food"
+                />
+              </div>
+            </div>
+            <div class="w-52">
+              <div class="aspect-w-4 aspect-h-3">
+                <img
+                  class="w-full h-full rounded-4xl object-cover"
+                  src="/assets/4/01-150x150.jpg"
+                  alt="food"
+                />
+              </div>
+            </div>
+            <div class="w-40">
+              <div class="aspect-w-3 aspect-h-2">
+                <img
+                  class="w-full h-full rounded-4xl object-cover"
+                  src="/assets/4/03-150x150.jpg"
+                  alt="food"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </section>
+  <!--  -->
 </template>
 
 <script>

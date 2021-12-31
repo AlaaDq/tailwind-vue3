@@ -11,6 +11,9 @@ module.exports = {
         'split-half-v-i': 'linear-gradient(to top, #ffffff 50% , #efefef 50%);',
         'split-half-h-i': 'linear-gradient(to left, #ffffff 50% , #efefef 50%);',
       },
+      borderRadius: {
+        '4xl': '2rem',
+      }
     },
   },
   plugins: [require('@tailwindcss/aspect-ratio')],
