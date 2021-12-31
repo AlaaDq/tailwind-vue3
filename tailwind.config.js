@@ -6,7 +6,8 @@ module.exports = {
         primary: '#FFBE00',
       },
       backgroundImage: {
-        'split-half': 'linear-gradient(to bottom, #ffffff 50% , #c2c2c2 50%);',
+        'split-half-v': 'linear-gradient(to bottom, #ffffff 50% , #efefef 50%);',
+        'split-half-h': 'linear-gradient(to right, #ffffff 50% , #efefef 50%);',
       },
     },
   },

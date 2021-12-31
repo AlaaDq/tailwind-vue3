@@ -246,7 +246,9 @@
     <!-- intro -->
     <div class="grid grid-cols-4">
       <!-- left col -->
-      <div class="col-start-1 col-end-3 flex flex-col justify-center px-4 md:px-0">
+      <div
+        class="col-start-1 col-end-3 flex flex-col justify-center px-4 md:px-0"
+      >
         <div class="text-4xl md:text-6xl font-semibold md:leading-tight">
           Free Home <span class="text-primary">Delivery Within</span> An Hour
         </div>
@@ -326,21 +328,17 @@
       </div>
       <!--  -->
       <!-- right col -->
-        <div class="col-start-3 md:col-start-4 col-end-5">
-          <div class="aspect-w-1 aspect-h-2">
-            <img
-              src="assets/header/Group 21.jpg"
-              class="object-fit"
-              alt="man"
-            />
-          </div>
+      <div class="col-start-3 md:col-start-4 col-end-5">
+        <div class="aspect-w-1 aspect-h-2">
+          <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
         </div>
+      </div>
 
       <!--  -->
     </div>
     <!--  -->
-
-    <section class="h-screen bg-split-half">
+    <!-- categories -->
+    <section class="md:h-screen bg-split-half-h md:bg-split-half-v mt-12">
       <div class="flex flex-col md:w-1/2 px-4 md:px-0">
         <div class="text-2xl">Featured Categories</div>
         <p class="text-base mt-3">
@@ -349,7 +347,37 @@
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
         </p>
       </div>
+      <div class="grid md:grid-cols-3 gap-8 md:gap-2 mt-6">
+        <div class="md:px-6 shadow-sm">
+          <div class="aspect-w-4 md:aspect-w-3 aspect-h-3 md:aspect-h-4">
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/kristina-bratko-nP11TkjxJ7s-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+        </div>
+        <div class="md:px-6 shadow-sm">
+          <div class="aspect-w-4 md:aspect-w-3 aspect-h-3 md:aspect-h-4">
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/pixzolo-photography-ZB8NK8cB4EE-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+        </div>
+        <div class="md:px-6 shadow-sm">
+          <div class="aspect-w-4 md:aspect-w-3 aspect-h-3 md:aspect-h-4">
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/pixzolo-photography-3tL4vtrFqTQ-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+        </div>
+      </div>
     </section>
+    <!--  -->
   </div>
 </template>
 
