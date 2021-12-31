@@ -342,6 +342,7 @@
   <!-- categories -->
   <section class="md:h-screen bg-split-half-h md:bg-split-half-v mt-12">
     <div class="container mx-auto md:px-16">
+      <!-- headings -->
       <div class="flex flex-col md:w-1/2 px-4 md:px-0">
         <div class="text-2xl font-semibold">Featured Categories</div>
         <p class="text-base mt-3">
@@ -350,8 +351,12 @@
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
         </p>
       </div>
+      <!--  -->
+      <!-- grid cards -->
       <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+        <!-- card -->
         <div class="relative">
+          <!-- image -->
           <div
             class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
           >
@@ -361,6 +366,9 @@
               alt="food"
             />
           </div>
+          <!--  -->
+
+          <!-- action btn -->
           <div
             class="
               absolute
@@ -392,7 +400,10 @@
               </div>
             </div>
           </div>
+          <!--  -->
         </div>
+        <!--  -->
+
         <div class="relative">
           <div
             class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
@@ -480,6 +491,7 @@
           </div>
         </div>
       </div>
+      <!--  -->
     </div>
   </section>
   <!--  -->
@@ -487,6 +499,7 @@
   <!-- services  -->
   <section class="md:h-screen bg-split-half-h-i md:bg-split-half-v-i pt-12">
     <div class="container mx-auto md:px-16">
+      <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
         <div class="text-2xl font-semibold">Featured Categories</div>
         <p class="text-base mt-3 md:w-1/2 text-center">
@@ -495,136 +508,108 @@
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
         </p>
       </div>
+      <!--  -->
+
+      <!-- grid cards -->
       <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
-        <div class="relative">
-          <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
-          >
-            <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/kristina-bratko-nP11TkjxJ7s-unsplash.jpg"
-              alt="food"
-            />
-          </div>
-          <div
-            class="
-              absolute
-              bottom-8
-              right-8
-              md:right-1/2 md:transform md:translate-x-1/2
-              whitespace-nowrap
-            "
-          >
-            <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-16 md:pr-24 pl-4 font-semibold">
-                Fast Food
-              </div>
-              <div class="bg-white py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+        <div
+          class="
+            flex
+            bg-primary
+            rounded-xl
+            flex-col
+            items-center
+            justify-center
+            p-2
+            space-y-4
+          "
+        >
+          <div class="mt-8 rounded-xl p-4 bg-white">
+            <div class="w-16">
+              <div class="aspect-w-1 aspect-h-1">
+                <img
+                  class="w-full h-full object-contain"
+                  src="/assets/2/services1.jpg"
+                  alt="food"
+                />
               </div>
             </div>
+          </div>
+          <div class="font-semibold text-center text-lg">Fast Food</div>
+          <div class="mx-auto w-3/4 text-sm">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            maiores, magni perferendis debitis minus pariatur iste nemo
+            consequuntur cum sapiente error voluptatem eos? Fugiat earum commodi
+            eaque cum placeat necessitatibus!
           </div>
         </div>
-        <div class="relative">
-          <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
-          >
-            <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/pixzolo-photography-ZB8NK8cB4EE-unsplash.jpg"
-              alt="food"
-            />
-          </div>
-          <div
-            class="
-              absolute
-              bottom-8
-              right-8
-              md:right-1/2 md:transform md:translate-x-1/2
-              whitespace-nowrap
-            "
-          >
-            <div class="flex items-center bg-black px-1 rounded-xl">
-              <div
-                class="text-base text-white pr-16 md:pr-24 pl-4 font-semibold"
-              >
-                Fast Food
-              </div>
-              <div class="bg-primary py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+
+        <div
+          class="
+            flex
+            bg-white
+            rounded-xl
+            flex-col
+            items-center
+            justify-center
+            p-2
+            space-y-4
+          "
+        >
+          <div class="mt-8 border-2 border-zinc-900 rounded-xl p-4 bg-white">
+            <div class="w-16">
+              <div class="aspect-w-1 aspect-h-1">
+                <img
+                  class="w-full h-full object-contain"
+                  src="/assets/2/services2.jpg"
+                  alt="food"
+                />
               </div>
             </div>
+          </div>
+          <div class="font-semibold text-center text-lg">Fast Food</div>
+          <div class="mx-auto w-3/4 text-sm">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            maiores, magni perferendis debitis minus pariatur iste nemo
+            consequuntur cum sapiente error voluptatem eos? Fugiat earum commodi
+            eaque cum placeat necessitatibus!
           </div>
         </div>
-        <div class="relative">
-          <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
-          >
-            <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/pixzolo-photography-3tL4vtrFqTQ-unsplash.jpg"
-              alt="food"
-            />
-          </div>
-          <div
-            class="
-              absolute
-              bottom-8
-              right-8
-              md:right-1/2 md:transform md:translate-x-1/2
-              whitespace-nowrap
-            "
-          >
-            <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-16 md:pr-24 pl-4 font-semibold">
-                Fast Food
-              </div>
-              <div class="bg-white py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+
+        <div
+          class="
+            flex
+            bg-primary
+            rounded-xl
+            flex-col
+            items-center
+            justify-center
+            p-2
+            space-y-4
+          "
+        >
+          <div class="mt-8 rounded-xl p-4 bg-white">
+            <div class="w-16">
+              <div class="aspect-w-1 aspect-h-1">
+                <img
+                  class="w-full h-full object-contain"
+                  src="/assets/2/services3(2).jpg"
+                  alt="food"
+                />
               </div>
             </div>
+          </div>
+
+          <div class="font-semibold text-center text-lg">Fast Food</div>
+          <div class="mx-auto w-3/4 text-sm">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            maiores, magni perferendis debitis minus pariatur iste nemo
+            consequuntur cum sapiente error voluptatem eos? Fugiat earum commodi
+            eaque cum placeat necessitatibus!
           </div>
         </div>
       </div>
+      <!--  -->
     </div>
   </section>
   <!--  -->
