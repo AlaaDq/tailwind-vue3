@@ -1,8 +1,8 @@
 <template>
   <!-- layout -->
   <div class="container mx-auto">
-    <header class="sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-4">
-      <div class="flex justify-between items-center py-3 px-4 sm:p-0">
+    <header class="sm:flex sm:justify-between sm:items-center sm:py-3">
+      <div class="flex justify-between items-center py-3 sm:p-0">
         <!-- logo -->
         <div class="w-28">
           <div class="aspect-w-4 w-full aspect-h-2">
@@ -72,14 +72,14 @@
       </div>
       <div
         :class="toggleShowClass"
-        class="px-2 pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
+        class="pb-4 pt-2 space-y-1 sm:flex sm:items-center sm:p-0"
       >
         <a
           href="#"
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -91,7 +91,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -103,7 +103,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -115,7 +115,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -127,7 +127,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -139,7 +139,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -151,7 +151,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400 hover:bg-cyan-200
+            hover:rounded hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -163,7 +163,7 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400
+            hover:rounded hover:text-primary
             font-semibold
             px-2
           "
@@ -188,13 +188,13 @@
           class="
             block
             text-neutral-800
-            hover:rounded hover:text-yellow-400
+            hover:rounded hover:text-primary
             font-semibold
             px-2
           "
         >
           <svg
-            class="w-6 h-6 fill-white stroke-slate-900 hover:stroke-yellow-400"
+            class="w-6 h-6 fill-white stroke-slate-900 hover:stroke-primary"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -212,11 +212,86 @@
     </header>
     <!-- intro -->
     <div class="grid grid-cols-2">
-      <div>test</div>
-      <div class="max-h-96">
-        <div class="aspect-w-3 aspect-h-4">
-          <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
+      <div class="flex flex-col justify-center px-4 md:px-0">
+        <div class="text-4xl md:text-6xl font-semibold md:leading-tight">
+          Free Home <span class="text-primary">Delivery Within</span> An Hour
         </div>
+        <div class="md:w-2/3 mt-6">
+          <div class="text-sm text-justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            aspernatur, ratione vitae doloribus soluta aliquid excepturi
+            veritatis quas eligendi aperiam eum natus numquam iure
+            necessitatibus voluptatibus qui sed enim animi!
+          </div>
+        </div>
+        <div
+          class="
+            flex
+            items-center
+            md:w-2/3
+            flex-col-reverse
+            md:flex-row
+            justify-between
+            mt-6
+          "
+        >
+          <button
+            id="currency"
+            name="currency"
+            class="
+              py-2
+              px-4
+              mt-4
+              md:mt-0
+              border-transparent
+              text-black
+              bg-primary
+              text-sm
+              rounded-md
+              font-semibold
+            "
+          >
+            Order Now
+          </button>
+          <div class="md:ml-6 relative rounded-md shadow-sm flex items-center">
+            <input
+              type="text"
+              name="price"
+              id="price"
+              autocomplete="off"
+              class="
+                focus:ring-indigo-500
+                block
+                w-full
+                py-2
+                px-1
+                text-sm
+                border-gray-300
+                bg-gray-300
+                rounded-l-md
+              "
+              placeholder="Enter The Food Name"
+            />
+            <button
+              class="
+                h-full
+                py-2
+                px-4
+                border-transparent
+                text-black
+                bg-primary
+                font-semibold
+                text-sm
+                rounded-r-md
+              "
+            >
+              search
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="aspect-w-1 aspect-h-1">
+        <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
       </div>
     </div>
   </div>
