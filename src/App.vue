@@ -512,6 +512,7 @@
 
       <!-- grid cards -->
       <div class="grid md:grid-cols-3 gap-0 md:gap-10 mt-6">
+        <!-- card -->
         <div
           class="
             flex
@@ -524,6 +525,7 @@
             space-y-4
           "
         >
+          <!-- image -->
           <div class="mt-8 rounded-xl p-4 bg-white">
             <div class="w-16">
               <div class="aspect-w-1 aspect-h-1">
@@ -535,6 +537,7 @@
               </div>
             </div>
           </div>
+          <!--  -->
           <div class="font-semibold text-center text-lg">Fast Food</div>
           <div class="mx-auto w-3/4 text-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -543,6 +546,7 @@
             eaque cum placeat necessitatibus!
           </div>
         </div>
+        <!-- card -->
 
         <div
           class="
@@ -575,6 +579,7 @@
             eaque cum placeat necessitatibus!
           </div>
         </div>
+        <!-- card -->
 
         <div
           class="
