@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@vueuse/core": "^7.5.1",
     "postcss-cli": "^9.1.0",
     "vue": "^3.2.25"
   },

@@ -1,6 +1,6 @@
 <template>
   <!-- layout -->
-  <div class="container mx-auto md:px-8">
+  <div class="container mx-auto md:px-16">
     <header class="sm:flex sm:justify-between sm:items-center sm:py-3">
       <div class="flex justify-between items-center py-3 sm:p-0">
         <!-- logo -->
@@ -332,6 +332,8 @@
 
 <script>
 import { computed, ref } from '@vue/reactivity';
+import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
+import { watch } from 'vue-demi';
 export default {
   setup() {
     const mobileNavOpen = ref(false);
@@ -343,6 +345,14 @@ export default {
     });
     const toggleHideClass = computed(() => {
       return !mobileNavOpen.value ? 'block' : 'hidden';
+    });
+    const breakpoints = useBreakpoints(breakpointsTailwind);
+
+    const smAndLarger = breakpoints.greater('sm');
+    watch(smAndLarger, (val, oldVal) => {
+      if (oldVal === false && val === true) {
+        mobileNavOpen.value = false;
+      }
     });
 
     return {
