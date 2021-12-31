@@ -5,6 +5,9 @@ module.exports = {
       colors: {
         primary: '#FFBE00',
       },
+      backgroundImage: {
+        'split-half': 'linear-gradient(to bottom, #ffffff 50% , #c2c2c2 50%);',
+      },
     },
   },
   plugins: [require('@tailwindcss/aspect-ratio')],
