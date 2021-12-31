@@ -1,10 +1,10 @@
 <template>
   <!-- layout -->
-  <div class="container mx-auto">
+  <div class="container mx-auto md:px-8">
     <header class="sm:flex sm:justify-between sm:items-center sm:py-3">
       <div class="flex justify-between items-center py-3 sm:p-0">
         <!-- logo -->
-        <div class="w-28">
+        <div class="w-28 px-4 md:px-0">
           <div class="aspect-w-4 w-full aspect-h-2">
             <img
               :src="'/assets/header/Group\ 18.jpg'"
