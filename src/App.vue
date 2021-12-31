@@ -78,8 +78,9 @@
           href="#"
           class="
             block
-            text-neutral-800
-            hover:rounded hover:text-primary hover:bg-cyan-200
+            hover:rounded
+            text-primary
+            hover:text-primary hover:bg-cyan-200
             font-semibold
             px-2
           "
@@ -191,22 +192,54 @@
             hover:rounded hover:text-primary
             font-semibold
             px-2
+            md:flex
           "
         >
-          <svg
-            class="w-6 h-6 fill-white stroke-slate-900 hover:stroke-primary"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-            ></path>
-          </svg>
+          <div class="relative mt-4 md:mt-0 inline-block">
+            <svg
+              class="
+                w-6
+                h-6
+                z-10
+                fill-white
+                stroke-slate-900
+                hover:stroke-primary
+              "
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+            <span
+              class="
+                absolute
+                -top-1
+                right-0
+                inline-flex
+                items-center
+                justify-center
+                px-2
+                py-1
+                text-xs
+                font-bold
+                leading-none
+                text-red-100
+                transform
+                translate-x-1/2
+                -translate-y-1/2
+                bg-red-600
+                rounded-full
+              "
+              >2</span
+            >
+          </div>
         </a>
       </div>
     </header>
