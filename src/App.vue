@@ -4,7 +4,7 @@
     <header class="sm:flex sm:justify-between sm:items-center sm:py-3">
       <div class="flex justify-between items-center py-3 sm:p-0">
         <!-- logo -->
-        <div class="w-28 px-4 md:px-0">
+        <div class="w-28  md:px-0">
           <div class="aspect-w-4 w-full aspect-h-2">
             <img
               :src="'/assets/header/Group\ 18.jpg'"
@@ -219,7 +219,7 @@
               class="
                 absolute
                 -top-1
-                right-0
+                left-0
                 inline-flex
                 items-center
                 justify-center
@@ -230,7 +230,6 @@
                 leading-none
                 text-red-100
                 transform
-                translate-x-1/2
                 -translate-y-1/2
                 bg-red-600
                 rounded-full
@@ -352,7 +351,7 @@
       </div>
       <!--  -->
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+      <div class="grid md:grid-cols-3 md:gap-10 mt-6">
         <!-- card -->
         <div class="relative">
           <!-- image -->
@@ -402,7 +401,6 @@
           <!--  -->
         </div>
         <!--  -->
-
         <div class="relative">
           <div
             class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
@@ -510,7 +508,7 @@
       <!--  -->
 
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-0 md:gap-10 my-6">
+      <div class="grid md:grid-cols-3 md:gap-10 my-6">
         <!-- card -->
         <div
           class="
@@ -764,8 +762,8 @@
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
-        <div class="text-2xl text-white font-semibold">Featured Categories</div>
-        <p class="text-base text-white mt-3 md:w-1/2 text-center">
+        <div class="text-2xl text-black  md:text-white font-semibold">Featured Categories</div>
+        <p class="text-base  text-black md:text-white mt-3 md:w-1/2 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
           asperiores in adipisci, cum quam consequuntur et nam beatae? Quaerat
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
@@ -773,17 +771,17 @@
       </div>
       <!--  -->
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+      <div class="grid gap-4 sm:gap-2 lg:grid-cols-4 lg:gap-10 mt-6">
         <!-- card -->
         <div class="relative">
           <!-- image -->
           <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+            class="aspect-w-4 lg:aspect-w-1 aspect-h-3 lg:aspect-h-1 shadow-sm"
           >
             <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/kristina-bratko-nP11TkjxJ7s-unsplash.jpg"
-              alt="food"
+              class="object-cover lg:rounded-lg"
+              src="/assets/4/1.jpg"
+              alt="chief"
             />
           </div>
           <!--  -->
@@ -792,32 +790,47 @@
           <div
             class="
               absolute
-              bottom-8
+              bottom-0
               right-8
-              md:right-1/2 md:transform md:translate-x-1/2
+              left-8
+              lg:right-0 lg:left-0
               whitespace-nowrap
             "
           >
-            <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
-                Fast Food
-              </div>
-              <div class="bg-white py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </div>
+            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!--  -->
+        <!-- card -->
+        <div class="relative">
+          <!-- image -->
+          <div
+            class="aspect-w-4 lg:aspect-w-1 aspect-h-3 lg:aspect-h-1 shadow-sm"
+          >
+            <img
+              class="object-cover lg:rounded-lg"
+              src="/assets/4/3(2).jpg"
+              alt="cheif"
+            />
+          </div>
+          <!--  -->
+
+          <!-- action btn -->
+          <div
+            class="
+              absolute
+              bottom-0
+              right-8
+              left-8
+              lg:right-0 lg:left-0
+              whitespace-nowrap
+            "
+          >
+            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
           <!--  -->
@@ -826,87 +839,51 @@
 
         <div class="relative">
           <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+            class="aspect-w-4 lg:aspect-w-1 aspect-h-3 lg:aspect-h-1 shadow-sm"
           >
             <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/pixzolo-photography-ZB8NK8cB4EE-unsplash.jpg"
+              class="object-cover lg:rounded-lg"
+              src="/assets/4/6.jpg"
               alt="food"
             />
           </div>
           <div
             class="
               absolute
-              bottom-8
+              bottom-0
               right-8
-              md:right-1/2 md:transform md:translate-x-1/2
+              left-8
+              lg:right-0 lg:left-0
               whitespace-nowrap
             "
           >
-            <div class="flex items-center bg-black px-1 rounded-xl">
-              <div
-                class="text-base text-white pr-6 lg:pr-24 pl-4 font-semibold"
-              >
-                Fast Food
-              </div>
-              <div class="bg-primary py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </div>
+            <div class="flex items-center justify-center bg-primary rounded-t-lg md:rounded-lg">
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
         </div>
         <div class="relative">
           <div
-            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+            class="aspect-w-4 lg:aspect-w-1 aspect-h-3 lg:aspect-h-1 shadow-sm"
           >
             <img
-              class="object-cover md:rounded-t-lg"
-              src="/assets/2/pixzolo-photography-3tL4vtrFqTQ-unsplash.jpg"
+              class="object-cover lg:rounded-lg"
+              src="/assets/4/7.jpg"
               alt="food"
             />
           </div>
           <div
             class="
               absolute
-              bottom-8
+              bottom-0
               right-8
-              md:right-1/2 md:transform md:translate-x-1/2
+              left-8
+              lg:right-0 lg:left-0
               whitespace-nowrap
             "
           >
-            <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
-                Fast Food
-              </div>
-              <div class="bg-white py-3 rounded-xl px-6">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
-              </div>
+            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+              <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
         </div>
