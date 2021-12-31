@@ -338,7 +338,6 @@
     </div>
     <!--  -->
   </div>
-
   <!-- categories -->
   <section class="md:bg-split-half-v mt-16">
     <div class="container mx-auto md:px-16">
@@ -353,7 +352,7 @@
       </div>
       <!--  -->
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-8  lg:gap-10 mt-6">
+      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
         <!-- card -->
         <div class="relative">
           <!-- image -->
@@ -623,7 +622,7 @@
   <section class="bg-slate-900 py-4">
     <div class="container mx-auto lg:px-16 pt-12">
       <!-- grid cards -->
-      <div class="grid grid-rows-1  md:gap-0 lg:grid-rows-none lg:grid-cols-2">
+      <div class="grid grid-rows-1 md:gap-0 lg:grid-rows-none lg:grid-cols-2">
         <div
           class="
             row-start-2 row-end-3
@@ -760,6 +759,161 @@
     </div>
   </section>
   <!--  -->
+  <!-- chifes -->
+  <section class="md:bg-slate-split-half-v py-16">
+    <div class="container mx-auto md:px-16">
+      <!-- headings -->
+      <div class="flex flex-col items-center px-4 md:px-0">
+        <div class="text-2xl text-white font-semibold">Featured Categories</div>
+        <p class="text-base text-white mt-3 md:w-1/2 text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
+          asperiores in adipisci, cum quam consequuntur et nam beatae? Quaerat
+          tempora non atque voluptate debitis quibusdam alias saepe odio ut.
+        </p>
+      </div>
+      <!--  -->
+      <!-- grid cards -->
+      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+        <!-- card -->
+        <div class="relative">
+          <!-- image -->
+          <div
+            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+          >
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/kristina-bratko-nP11TkjxJ7s-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+          <!--  -->
+
+          <!-- action btn -->
+          <div
+            class="
+              absolute
+              bottom-8
+              right-8
+              md:right-1/2 md:transform md:translate-x-1/2
+              whitespace-nowrap
+            "
+          >
+            <div class="flex items-center bg-primary px-1 rounded-xl">
+              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
+                Fast Food
+              </div>
+              <div class="bg-white py-3 rounded-xl px-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <!--  -->
+
+        <div class="relative">
+          <div
+            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+          >
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/pixzolo-photography-ZB8NK8cB4EE-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+          <div
+            class="
+              absolute
+              bottom-8
+              right-8
+              md:right-1/2 md:transform md:translate-x-1/2
+              whitespace-nowrap
+            "
+          >
+            <div class="flex items-center bg-black px-1 rounded-xl">
+              <div
+                class="text-base text-white pr-6 lg:pr-24 pl-4 font-semibold"
+              >
+                Fast Food
+              </div>
+              <div class="bg-primary py-3 rounded-xl px-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="aspect-w-4 md:aspect-w-1 aspect-h-3 md:aspect-h-1 shadow-sm"
+          >
+            <img
+              class="object-cover md:rounded-t-lg"
+              src="/assets/2/pixzolo-photography-3tL4vtrFqTQ-unsplash.jpg"
+              alt="food"
+            />
+          </div>
+          <div
+            class="
+              absolute
+              bottom-8
+              right-8
+              md:right-1/2 md:transform md:translate-x-1/2
+              whitespace-nowrap
+            "
+          >
+            <div class="flex items-center bg-primary px-1 rounded-xl">
+              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
+                Fast Food
+              </div>
+              <div class="bg-white py-3 rounded-xl px-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </section>
 </template>
 
 <script>
