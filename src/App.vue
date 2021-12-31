@@ -1007,8 +1007,6 @@
         <div class="font-semibold text-lg w-24 lg:w-auto">Services</div>
         <div class="text-base">About</div>
         <div class="text-base">Support</div>
-        <div class="text-base">Chats</div>
-        <div class="text-base">Blogs</div>
         <div class="text-base">Privacy & Policy</div>
       </div>
       <div
@@ -1020,13 +1018,13 @@
           justify-start
           items-start
           lg:items-center
-          whitespace-nowrap
+          
         "
       >
         <div class="font-semibold text-lg w-24 lg:w-auto">Quick links</div>
         <div class="text-base">Collections</div>
         <div class="text-base">Services</div>
-        <div class="text-base">Online Order</div>
+        <div class="text-base">Food</div>
         <div class="text-base">Contacts</div>
       </div>
       <div
@@ -1041,7 +1039,7 @@
         "
       >
         <div class="font-semibold text-lg w-24 lg:w-auto">Contact Us</div>
-        <div class="text-base">+5977 5777 1427</div>
+        <div class="text-base">+111</div>
         <div class="text-base">alaa.97@gmial.com</div>
         <div class="text-base">Damascus Syria</div>
       </div>
