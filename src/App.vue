@@ -623,7 +623,7 @@
   <section class="bg-slate-900 py-4">
     <div class="container mx-auto lg:px-16 pt-12">
       <!-- grid cards -->
-      <div class="grid grid-rows-1 gap-6 md:gap-0 lg:grid-rows-none lg:grid-cols-2">
+      <div class="grid grid-rows-1  md:gap-0 lg:grid-rows-none lg:grid-cols-2">
         <div
           class="
             row-start-2 row-end-3
