@@ -8,6 +8,8 @@ module.exports = {
       backgroundImage: {
         'split-half-v': 'linear-gradient(to bottom, #ffffff 50% , #efefef 50%);',
         'split-half-h': 'linear-gradient(to right, #ffffff 50% , #efefef 50%);',
+        'split-half-v-i': 'linear-gradient(to top, #ffffff 50% , #efefef 50%);',
+        'split-half-h-i': 'linear-gradient(to left, #ffffff 50% , #efefef 50%);',
       },
     },
   },
