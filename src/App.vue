@@ -340,7 +340,7 @@
   </div>
 
   <!-- categories -->
-  <section class="  md:bg-split-half-v mt-16">
+  <section class="md:bg-split-half-v mt-16">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col md:w-1/2 px-4 md:px-0">
@@ -497,12 +497,12 @@
   <!--  -->
 
   <!-- services  -->
-  <section class="  md:bg-split-half-v-i py-16">
+  <section class="md:bg-split-half-v-i py-16">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
         <div class="text-2xl font-semibold">Featured Categories</div>
-        <p class="text-base mt-3 md:w-1/2 text-center ">
+        <p class="text-base mt-3 md:w-1/2 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
           asperiores in adipisci, cum quam consequuntur et nam beatae? Quaerat
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
@@ -620,10 +620,10 @@
   <!--  -->
 
   <!-- about -->
-  <section class=" bg-slate-900">
+  <section class="bg-slate-900">
     <div class="container mx-auto lg:px-16 pt-12">
       <!-- grid cards -->
-      <div class="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2">
+      <div class="grid grid-rows-1 gap-6 md:gap-0 lg:grid-rows-none lg:grid-cols-2">
         <div
           class="
             row-start-2 row-end-3
@@ -635,7 +635,11 @@
           "
         >
           <div
-            class="w-96 mx-auto  lg:mx-none lg:absolute lg:top-1/2 lg:transform lg:-translate-y-1/2"
+            class="
+              w-96
+              mx-auto
+              lg:mx-none lg:absolute lg:top-1/2 lg:transform lg:-translate-y-1/2
+            "
           >
             <div class="aspect-w-4 aspect-h-3">
               <img
@@ -700,6 +704,52 @@
                   alt="food"
                 />
               </div>
+            </div>
+          </div>
+
+          <div class="text-primary text-xl font-semibold text-center">
+            Alaa Eddin Ksibati
+          </div>
+          <p class="text-sm text-white text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+            in quae ratione quas esse placeat minus perspiciatis molestias
+            facilis nisi dignissimos aspernatur cupiditate doloribus rem quaerat
+            aut doloremque enim laboriosam.
+          </p>
+
+          <div class="flex justify-center">
+            <div class="bg-primary py-3 rounded-4xl px-6 transform -scale-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </div>
+            s
+            <div class="bg-primary py-3 rounded-4xl px-6">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
             </div>
           </div>
         </div>
