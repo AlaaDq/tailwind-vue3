@@ -340,7 +340,7 @@
   </div>
 
   <!-- categories -->
-  <section class="  md:bg-split-half-v mt-12">
+  <section class="  md:bg-split-half-v mt-16">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col md:w-1/2 px-4 md:px-0">
@@ -497,7 +497,7 @@
   <!--  -->
 
   <!-- services  -->
-  <section class="  md:bg-split-half-v-i py-24">
+  <section class="  md:bg-split-half-v-i py-16">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
@@ -621,21 +621,21 @@
 
   <!-- about -->
   <section class=" bg-slate-900">
-    <div class="container mx-auto md:px-16 pt-12">
+    <div class="container mx-auto lg:px-16 pt-12">
       <!-- grid cards -->
-      <div class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2">
+      <div class="grid grid-rows-2 lg:grid-rows-none lg:grid-cols-2">
         <div
           class="
             row-start-2 row-end-3
-            md:row-start-auto
-            md:row-end-auto
-            md:col-start-1
-            md:col-end-2
-            md:relative
+            lg:row-start-auto
+            lg:row-end-auto
+            lg:col-start-1
+            lg:col-end-2
+            lg:relative
           "
         >
           <div
-            class="w-96 mx-auto mt-6 md:mx-none md:absolute md:top-1/2 md:transform md:-translate-y-1/2"
+            class="w-96 mx-auto  lg:mx-none lg:absolute lg:top-1/2 lg:transform lg:-translate-y-1/2"
           >
             <div class="aspect-w-4 aspect-h-3">
               <img
@@ -648,10 +648,10 @@
         </div>
         <div
           class="
-            md:col-start-2 md:col-end-3
+            lg:col-start-2 lg:col-end-3
             flex flex-col
             px-4
-            md:px-0
+            lg:px-0
             space-y-6
           "
         >
@@ -671,7 +671,7 @@
               space-y-3
               items-center
               flex-col
-              md:flex-row
+              lg:flex-row
             "
           >
             <div class="w-40">
