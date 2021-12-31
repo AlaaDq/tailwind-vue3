@@ -353,7 +353,7 @@
       </div>
       <!--  -->
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-8 md:gap-10 mt-6">
+      <div class="grid md:grid-cols-3 gap-8  lg:gap-10 mt-6">
         <!-- card -->
         <div class="relative">
           <!-- image -->
@@ -379,7 +379,7 @@
             "
           >
             <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-16 md:pr-24 pl-4 font-semibold">
+              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
                 Fast Food
               </div>
               <div class="bg-white py-3 rounded-xl px-6">
@@ -425,7 +425,7 @@
           >
             <div class="flex items-center bg-black px-1 rounded-xl">
               <div
-                class="text-base text-white pr-16 md:pr-24 pl-4 font-semibold"
+                class="text-base text-white pr-6 lg:pr-24 pl-4 font-semibold"
               >
                 Fast Food
               </div>
@@ -468,7 +468,7 @@
             "
           >
             <div class="flex items-center bg-primary px-1 rounded-xl">
-              <div class="text-base pr-16 md:pr-24 pl-4 font-semibold">
+              <div class="text-base pr-6 lg:pr-24 pl-4 font-semibold">
                 Fast Food
               </div>
               <div class="bg-white py-3 rounded-xl px-6">
@@ -620,7 +620,7 @@
   <!--  -->
 
   <!-- about -->
-  <section class="bg-slate-900">
+  <section class="bg-slate-900 py-4">
     <div class="container mx-auto lg:px-16 pt-12">
       <!-- grid cards -->
       <div class="grid grid-rows-1 gap-6 md:gap-0 lg:grid-rows-none lg:grid-cols-2">
