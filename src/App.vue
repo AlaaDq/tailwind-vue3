@@ -247,12 +247,12 @@
     <div class="grid grid-cols-4">
       <!-- left col -->
       <div
-        class="col-start-1 col-end-3 flex flex-col justify-center px-4 md:px-0"
+        class="col-start-1 col-end-3 flex flex-col justify-center px-4 lg:px-0"
       >
-        <div class="text-4xl md:text-6xl font-semibold md:leading-tight">
+        <div class="text-4xl lg:text-6xl font-semibold lg:leading-tight">
           Free Home <span class="text-primary">Delivery Within</span> An Hour
         </div>
-        <div class="md:w-2/3 mt-6">
+        <div class="lg:w-2/3 mt-6">
           <div class="text-sm text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
             aspernatur, ratione vitae doloribus soluta aliquid excepturi
@@ -264,9 +264,9 @@
           class="
             flex
             items-center
-            md:w-2/3
+            lg:w-2/3
             flex-col-reverse
-            md:flex-row
+            lg:flex-row
             justify-between
             mt-6
           "
@@ -278,7 +278,7 @@
               py-2
               px-4
               mt-4
-              md:mt-0
+              lg:mt-0
               border-transparent
               text-black
               bg-primary
@@ -328,7 +328,7 @@
       </div>
       <!--  -->
       <!-- right col -->
-      <div class="col-start-3 md:col-start-4 col-end-5">
+      <div class="col-start-3 lg:col-start-4 col-end-5">
         <div class="aspect-w-1 aspect-h-2">
           <img src="assets/header/Group 21.jpg" class="object-fit" alt="man" />
         </div>
@@ -340,7 +340,7 @@
   </div>
 
   <!-- categories -->
-  <section class="md:h-screen bg-split-half-h md:bg-split-half-v mt-12">
+  <section class="  md:bg-split-half-v mt-12">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col md:w-1/2 px-4 md:px-0">
@@ -497,12 +497,12 @@
   <!--  -->
 
   <!-- services  -->
-  <section class="md:h-screen bg-split-half-h-i md:bg-split-half-v-i pt-12">
+  <section class="  md:bg-split-half-v-i py-24">
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
         <div class="text-2xl font-semibold">Featured Categories</div>
-        <p class="text-base mt-3 md:w-1/2 text-center">
+        <p class="text-base mt-3 md:w-1/2 text-center ">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
           asperiores in adipisci, cum quam consequuntur et nam beatae? Quaerat
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
@@ -511,7 +511,7 @@
       <!--  -->
 
       <!-- grid cards -->
-      <div class="grid md:grid-cols-3 gap-0 md:gap-10 mt-6">
+      <div class="grid md:grid-cols-3 gap-0 md:gap-10 my-6">
         <!-- card -->
         <div
           class="
@@ -620,7 +620,7 @@
   <!--  -->
 
   <!-- about -->
-  <section class="md:h-screen bg-slate-900">
+  <section class=" bg-slate-900">
     <div class="container mx-auto md:px-16 pt-12">
       <!-- grid cards -->
       <div class="grid grid-rows-2 md:grid-rows-none md:grid-cols-2">
@@ -635,7 +635,7 @@
           "
         >
           <div
-            class="w-96 mx-auto mt-6 md:mt-none md:mx-none md:absolute md:top-1/2 md:transform md:-translate-y-1/2"
+            class="w-96 mx-auto mt-6 md:mx-none md:absolute md:top-1/2 md:transform md:-translate-y-1/2"
           >
             <div class="aspect-w-4 aspect-h-3">
               <img
