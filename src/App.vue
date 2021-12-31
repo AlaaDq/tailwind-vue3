@@ -218,8 +218,8 @@
             <span
               class="
                 absolute
-                -top-1
-                left-0
+                -top-4
+                left-3
                 inline-flex
                 items-center
                 justify-center
@@ -230,7 +230,6 @@
                 leading-none
                 text-red-100
                 transform
-                -translate-y-1/2
                 bg-red-600
                 rounded-full
               "
