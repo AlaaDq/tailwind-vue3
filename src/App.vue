@@ -4,7 +4,7 @@
     <header class="sm:flex sm:justify-between sm:items-center sm:py-3">
       <div class="flex justify-between items-center py-3 sm:p-0">
         <!-- logo -->
-        <div class="w-28  md:px-0">
+        <div class="w-28 md:px-0">
           <div class="aspect-w-4 w-full aspect-h-2">
             <img
               :src="'/assets/header/Group\ 18.jpg'"
@@ -273,7 +273,7 @@
             id="currency"
             name="currency"
             class="
-              py-2
+              py-3
               px-4
               mt-4
               lg:mt-0
@@ -297,8 +297,8 @@
                 focus:ring-indigo-500
                 block
                 w-full
-                py-2
-                px-1
+                py-3
+                pl-2
                 text-sm
                 border-gray-300
                 bg-gray-300
@@ -309,8 +309,8 @@
             <button
               class="
                 h-full
-                py-2
-                px-4
+                py-3
+                px-6
                 border-transparent
                 text-black
                 bg-primary
@@ -761,8 +761,10 @@
     <div class="container mx-auto md:px-16">
       <!-- headings -->
       <div class="flex flex-col items-center px-4 md:px-0">
-        <div class="text-2xl text-black  md:text-white font-semibold">Featured Categories</div>
-        <p class="text-base  text-black md:text-white mt-3 md:w-1/2 text-center">
+        <div class="text-2xl text-black md:text-white font-semibold">
+          Featured Categories
+        </div>
+        <p class="text-base text-black md:text-white mt-3 md:w-1/2 text-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi libero
           asperiores in adipisci, cum quam consequuntur et nam beatae? Quaerat
           tempora non atque voluptate debitis quibusdam alias saepe odio ut.
@@ -796,7 +798,16 @@
               whitespace-nowrap
             "
           >
-            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                bg-primary
+                rounded-t-lg
+                lg:rounded-lg
+              "
+            >
               <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
@@ -828,7 +839,16 @@
               whitespace-nowrap
             "
           >
-            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                bg-primary
+                rounded-t-lg
+                lg:rounded-lg
+              "
+            >
               <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
@@ -856,7 +876,16 @@
               whitespace-nowrap
             "
           >
-            <div class="flex items-center justify-center bg-primary rounded-t-lg md:rounded-lg">
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                bg-primary
+                rounded-t-lg
+                md:rounded-lg
+              "
+            >
               <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
@@ -881,7 +910,16 @@
               whitespace-nowrap
             "
           >
-            <div class="flex items-center justify-center bg-primary rounded-t-lg lg:rounded-lg">
+            <div
+              class="
+                flex
+                items-center
+                justify-center
+                bg-primary
+                rounded-t-lg
+                lg:rounded-lg
+              "
+            >
               <div class="text-xl py-3 xl:py-4 font-bold">Great Chief</div>
             </div>
           </div>
@@ -890,6 +928,97 @@
       <!--  -->
     </div>
   </section>
+
+  <footer class="container mx-auto md:px-16 py-12">
+    <div class="grid lg:grid-cols-5">
+      <div
+        class="
+          flex flex-nowrap
+          lg:flex-col
+          justify-center
+          items-start
+          px-4
+          space-x-6
+          lg:px-0 lg:space-x-0 lg:space-y-16
+        "
+      >
+        <div class="w-20">
+          <div class="aspect-1">
+            <img
+              src="/assets/5+1/Flat.jpg"
+              class="full-w full-h object-cover"
+              alt="logo"
+            />
+          </div>
+        </div>
+
+        <div class="text-sm w-1/3 lg:w-full">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          repellendus facilis ex animi id quia exercitationem.
+        </div>
+
+        <div class="md:ml-6 relative rounded-md shadow-sm flex items-center">
+          <input
+            type="text"
+            name="price"
+            id="price"
+            autocomplete="off"
+            class="
+              focus:ring-indigo-500
+              block
+              w-full
+              py-3
+              pl-2
+              text-sm
+              border-gray-300
+              bg-gray-300
+              rounded-l-md
+            "
+            placeholder="Your Email"
+          />
+          <button
+            class="
+              h-full
+              py-3
+              px-6
+              border-transparent
+              text-white
+              bg-black
+              font-semibold
+              text-sm
+              rounded-r-md rounded-l-none
+            "
+          >
+            Send
+          </button>
+        </div>
+      </div>
+      <div class="flex lg:flex-col justify-center items-center space-y-3">
+        <div class="font-semibold text-lg">title</div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="flex lg:flex-col justify-center items-center space-y-3">
+        <div class="font-semibold text-lg">title</div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="flex lg:flex-col justify-center items-center space-y-3">
+        <div class="font-semibold text-lg">title</div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="flex lg:flex-col justify-center items-center space-y-3">
+        <div class="font-semibold text-lg">title</div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
